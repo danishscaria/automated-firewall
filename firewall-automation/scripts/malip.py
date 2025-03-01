@@ -10,12 +10,12 @@ from azure.data.tables import TableServiceClient, TableClient, UpdateMode
 from pymongo import MongoClient
 
 # Azure Configuration
-SUBSCRIPTION_ID = "c4a7542d-5884-4ab6-a0f3-d18cac5525eb"
+SUBSCRIPTION_ID = ""
 RESOURCE_GROUP = "MyResourceGroup"
 FIREWALL_NAME = "myAzureFirewall"
 RULE_COLLECTION_NAME = "BlockMaliciousIPs"
 STORAGE_ACCOUNT_NAME = "myfirewallstorage12345"
-STORAGE_ACCOUNT_KEY = "Uv0oK7k7XicuMAKYCrMRLu6ZjF+zFwmePtDDbWVCpiaegTh9pgV0itukkJDqQjR44Y6oo5d4kuRU+ASti412uw=="
+STORAGE_ACCOUNT_KEY = "="
 TABLE_NAME = "BlockedIPs"
 
 # MongoDB Configuration
